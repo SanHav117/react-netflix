@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,300;6..12,400;6..12,500;6..12,600;6..12,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(26, 26, 26);
+    font-family: 'Nunito Sans', sans-serif;
+}
+.Header{
+    color: whitesmoke;
+    background-color: rgb(5, 5, 5);
+    padding: 0.45rem;
+}
+.Navigation{
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 50%;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+.Poster{
+    background-image: url('https://hips.hearstapps.com/hmg-prod/images/vampire-diaries-poster-1597854530.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+
+}
+.blackLayer{
+    height: inherit;
+    width: inherit;
+    background-image: linear-gradient(90deg,rgba(5,5,5,1),rgba(5,5,5,0))
+}
+.posterElements{
+    padding-block: 3rem;
+    display:flex;
+    flex-direction: column;
+    width: 42%;
+}
+.posterElements > span{
+    margin-block: 10px;
+    padding-left: 3rem;
+}
+.Nseries{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 120px;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+.Description{
+    font-size: 1.3rem;
+    line-height: 150%;
+    color: whitesmoke;
+}
+.posterButtons{
+    display: flex;
+    width: 55%;
+    justify-content: space-between;
+}
+.Play{
+    display: flex;
+    align-items: center;
+    outline: none;
+    border-radius: 0.4rem;
+    border: none;
+    font-size: 1.4rem;
+    font-weight: 500;
+    padding: 0.7rem 1.8rem;
+    background-color: whitesmoke;
+}
+.Play > img{
+    height: 1.5rem;
+    margin-right: 10px;
+}
+.myList{
+    display: flex;
+    align-items: center;
+    outline: none;
+    border-radius: 0.4rem;
+    border: none;
+    font-size: 1.4rem;
+    font-weight: 500;
+    padding: 0.7rem 1.8rem;
+    background-color: rgba(104, 104, 104, 0.8);
+    color: whitesmoke;
+}
+.myList > img{
+    height: 1.5rem;
+    margin-right: 10px;
+}
